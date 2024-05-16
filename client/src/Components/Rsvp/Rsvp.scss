@@ -1,0 +1,12 @@
+.rsvp {
+
+    &__options {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__radio {
+        display: flex;
+        align-items: center;
+    }
+}
