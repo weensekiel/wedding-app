@@ -1,17 +1,18 @@
-import './App.scss'
-import { Header } from './Components/Header/Header'
-// import { Hero } from './Components/Hero/Hero'
-import { Rsvp } from './Components/Rsvp/Rsvp'
+import "./App.scss";
+import { Header } from "./Components/Header/Header";
+import { Home } from "./Components/Home/Home";
+import { BigDay } from "./Components/BigDay/BigDay";
+import { Rsvp } from "./Components/Rsvp/Rsvp";
 
 function App() {
-
   return (
     <>
       <Header />
-      {/* <Hero /> */}
+      <Home />
+      <BigDay />
       <Rsvp />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

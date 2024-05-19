@@ -1,0 +1,15 @@
+.home {
+    background-image: url('../../assets/jamaica.JPG');
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &__header {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        border: 1px solid red;
+        height: 100vh;
+    }
+}
