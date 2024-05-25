@@ -32,7 +32,7 @@ export function Rsvp() {
   }
 
   return (
-    <section className="rsvp">
+    <section className="rsvp" id="rsvp">
       <h1>RSVP</h1>
       <form onSubmit={handleSubmit}>
         <h1 className="rsvp__error">{error}</h1>
